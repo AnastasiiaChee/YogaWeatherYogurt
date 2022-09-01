@@ -102,3 +102,16 @@ p {
 .col-sm-4 {
   max-width: 20px;
 }
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+  h2 {
+    font-size: 36px;
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
+}
